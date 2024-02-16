@@ -1,0 +1,109 @@
+@font-face{
+    font-family: Shabnam;
+    src: url("../font/Shabnam/Shabnam.woff") format("woff");
+    font-style: normal;
+    font-weight: 300;
+ }
+
+body{
+font-family: Shabnam;
+margin: 0;
+padding: 0%;
+background: url(../img/original-1aa08df9eb680947c23c8c99dee29f81.jpg);
+background-size: cover;
+background-position:center;
+direction: rtl;
+
+}
+.box-login{
+width: 320px;
+height: 690px;
+background: rgba(0, 0, 0, 0.5);
+color: #fff;
+top: 50%;
+left: 50%;
+position: absolute;
+transform: translate(-50%,-50%);
+box-sizing: border-box; 
+padding: 70px 30px; 
+}
+.img{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+position: absolute;
+top:-50px;
+left:  calc(50% - 50px);
+}
+h1{
+margin: 0;
+padding: 0 020px;
+text-align: center;
+font-size: 22px;
+}
+.box-login p{
+margin: 0;
+padding: 0;
+font-weight: bold;
+}
+
+.box-login input{
+width: 100%;
+margin-bottom: 20px;
+  
+}
+
+
+
+.box-login a:hover{
+    color:rgb(145, 255, 2);
+}
+
+.buttlogin{
+border-radius: 30px;
+border: none;
+outline: none;
+padding: 25px 30px;
+background-color:#11111193;
+color: #ffffff;
+transition: all 0.5s;
+cursor: pointer;
+font-size: 18px;
+}
+.buttlogin:hover{
+background-color:#03e8f48f;
+color: #000;
+
+}
+
+.nametext {
+color: #ff0000;
+font-size: 15px;
+}
+.Familynametext{
+    color: #ff0000;
+    font-size: 15px; 
+}
+
+.passwordtext{
+font-size: 14px;
+text-align: right;
+color: #ff0000;
+   
+}
+
+.passwordtextcolor2{
+color: #ff9900;
+}
+.passwordtextcolor3{
+color: #20f804;
+}
+
+
+.pt2{
+text-align: center;
+}
+.colorname1{
+    color: #ff9900;
+    text-decoration:none;
+}

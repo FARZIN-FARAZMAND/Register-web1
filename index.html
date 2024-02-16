@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/min.css" rel="stylesheet" type="text/css">
+<script src="./js/jquery-3.7.1.min.js" language="javascript" type="text/javascript"></script>
+<title>Document</title>
+</head>
+<body>
+<div class="box-login">
+<img src="icon/user.png"  class="img">
+<h1>ثبت نام</h1>
+<form>
+<p>نام:</p>
+<input type="name" name="name" placeholder="name" id="name">
+<p class="nametext"></p>
+<p>نام خانوادگی:</p>
+<input type="Familyname" name="Familyname" placeholder="Familyname" id="Familyname">
+<p class="Familynametext"></p>
+<p>شماره تلفن:</p>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"placeholder="0915" maxlength="14">
+<p>ایمیل:</p>
+<input type="email" id="email" name="email" placeholder="email">
+<p class="emailtext"></p>
+<p>رمز جدید:</p>
+<input type="password" id="password" name="password" placeholder="newpassword">
+<p class="passwordtext"></p>
+<p>تاریخ تولد:</p>
+<select id="tim30"><option value="">1</option></select>
+<select id="farazselect"></select>
+<select class="tim"><option value="1402">1402</option></select>
+<br>
+<br>
+<p>محل سکونت:</p>
+<select class=""><option value="">خراسان رضوی</option></select>
+<select><option value="">مشهد</option><option value="">تهران</option></select>
+</form>
+<input type="submit" name="submit" value="ثبت نام" class="buttlogin" >
+<a href="#" class="colorname1">ورود نام کاربری</a>
+<p class="pt2">farzin.farazmand@</p>
+</div>
+</body>
+<script src="./js/main.js" language="javascript" type="text/javascript"></script>
+</html>
